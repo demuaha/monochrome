@@ -1,0 +1,1538 @@
+@font-face {
+    font-family: 'Manrope';
+    src: url(../fonts/Manrope-Medium.ttf);
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Manrope';
+    src: url(../fonts/Manrope-Regular.ttf);
+    font-weight: 500;
+    font-style: 500;
+}
+
+@font-face {
+    font-family: 'Netural';
+    src: url(../fonts/NeutralFace.otf);
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.top .lang {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.top .lang .ru {
+    margin-left: 15%;
+}
+
+.top .lang .eng {
+    margin-left: 7%;
+    color: gray;
+}
+
+.icons-top {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+.icons-top i {
+    margin-right: 10%;
+}
+
+.forwho {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.forwho a {
+    color: gray;
+    font-size: 20px;
+}
+
+.monochrome {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.monochrome .text {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.monochrome .text .zagolovok h1 {
+    font-size: 156px;
+    margin-right: 10px;
+    margin-left: 15px;
+    font-family: 'Manrope';
+    font-weight: normal;
+}
+
+.monochrome .text .text-inside {
+    font-family: 'Manrope';
+    font-weight: normal;
+    font-size: 24px;
+}
+
+.monochrome .photo img {
+    margin-right: 10px;
+}
+
+.mono-for-all {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mono-for-all .zagolovok h2 {
+    font-family: 'Manrope';
+    font-size: 90px;
+}
+
+.mono-for-all .zagolovok {
+    display: flex;
+    justify-content: start;
+}
+
+.mono-for-all .photo {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.mono-for-all .photo .pic1 {
+    margin-right: 2%;
+}
+
+.mono-for-all .photo .pic2 {
+    margin-right: 2%;
+}
+
+.mono-for-all .photo .pic3 {
+    margin-right: 2%;
+}
+
+.new-collection {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+
+.new-collection .bg-image {
+    background-image: url(../img/6.jpg);
+    width: 100%;
+    height: 590px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    flex-direction: column;
+}
+
+.new-collection .text .zagolovok {
+    color: aliceblue;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Manrope';
+}
+
+.new-collection .text .zagolovok h1 {
+    font-family: 'Manrope';
+    font-weight: 400;
+}
+
+.new-collection .text .text-p h2 {
+    font-family: 'Manrope';
+    font-size: 22px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.new-collection .text .zagolovok {
+    color: aliceblue;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Manrope-med';
+    margin-bottom: 15px;
+}
+
+.new-collection .text .zagolovok h2 {
+    font-size: 18px;
+    font-family: 'Manrope';
+    margin-left: 10px;
+}
+
+.new-collection .bg-image .butt button {
+    background-color: white;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.season {
+    margin-top: 165px;
+}
+
+.season .container .ns {
+    font-family: 'Netural';
+    font-weight: 500;
+    font-size: 74px;
+    margin-bottom: 0;
+}
+
+.season .container .otum-winter {
+    font-family: 'Netural';
+    font-weight: 500;
+    font-size: 74px;
+    margin-top: 0;
+    display: flex;
+    justify-content: end;
+    margin-bottom: 55px;
+}
+
+.season .container .new-season {
+    display: flex;
+    justify-content: space-between;
+}
+
+.season .container .new-season h2 {
+    font-family: 'Manrope';
+    font-size: 22px;
+}
+
+.season .container .new-season .costumfrst .costum {
+    background: url(../img/7.jpg);
+    height: 485px;
+    width: 365px;
+}
+
+.season .container .new-season .costumscnd-thrd .costum2 {
+    background: url(../img/8.jpg);
+    height: 210px;
+    width: 370px;
+}
+
+.season .container .new-season .costumscnd-thrd .costum3 {
+    background: url(../img/9.jpg);
+    height: 210px;
+    width: 370px;
+}
+
+.season .container .new-season .costumftz .costum4 {
+    background: url(../img/10.jpg);
+    height: 485px;
+    width: 365px;
+}
+
+.green {
+    margin-top: 125px;
+}
+
+.green .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.green .container .greencostum {
+    background: url(../img/11.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 600px;
+    height: 680px;
+}
+
+.green .container .buy .star {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.green .container .buy .star .otziv h2 {
+    font-family: 'Netural';
+    font-weight: 500;
+    font-size: 52px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.green .container .buy .star .otziv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.green .container .buy .star .otziv .fivestar {
+    display: flex;
+    align-items: center;
+}
+
+.green .container .buy .star .otziv .five {
+    font-family: 'Manrope';
+    font-size: 14px;
+}
+
+.green .container .buy .star .otziv .fa-star {
+    height: 16px;
+    width: 16px;
+    margin-right: 5px;
+}
+
+.green .container .buy .star .ot-winter {
+    font-family: 'Manrope';
+    font-size: 22px;
+}
+
+.green .container .buy .size {
+    display: flex;
+    flex-direction: column;
+}
+
+.green .container .buy .size .text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.green .container .buy .size .text h2 {
+    font-family: 'Manrope';
+    font-size: 14px;
+}
+
+.green .container .buy .size .text a {
+    font-family: 'Manrope';
+    font-size: 14px;
+    color: black;
+}
+
+.green .container .buy .size .choise select {
+    width: 470px;
+    height: 50px;
+    border: 1px solid rgb(192, 192, 192);
+    color: rgb(192, 192, 192);
+
+}
+
+.green .container .buy .sell {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 34px;
+}
+
+.green .container .buy .sell h2 {
+    font-family: 'Netural';
+    font-weight: 500;
+    font-size: 38px;
+}
+
+.green .container .buy .sell input {
+    width: 270px;
+    height: 50px;
+    border: 1px solid rgb(192, 192, 192);
+}
+
+.green .container .buy .sell input::-webkit-input-placeholder {
+    padding-left: 20px;
+    color: rgb(192, 192, 192);
+}
+
+.green .container .buy .katalog {
+    width: 470px;
+    height: 64px;
+    background-color: black;
+    color: #fafafa;
+    font-family: 'Netural';
+    font-size: 14px;
+    transition: .5s;
+}
+
+.green .container .buy .katalog:hover {
+    background-color: rgb(124, 124, 124);
+    border: none;
+    transition: .3s;
+}
+
+.green .container .buy .infocost {
+    margin-top: 55px;
+}
+
+.green .container .buy .infocost label {
+    margin-right: 55px;
+}
+
+.green .container .buy .infocost .perecluch {
+    margin-top: 30px;
+}
+
+.green .container .buy .infocost .perecluch .text {
+    font-family: 'Manrope';
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.green .container .buy {
+    margin-left: 50px;
+    width: 470px;
+}
+
+.green .container .buy .infocost .perecluch {
+    width: 100%;
+    overflow: hidden;
+}
+
+.green .container .buy .infocost .perecluch .line {
+    width: 300%;
+    display: flex;
+}
+
+.green .container .buy .infocost .perecluch .line .text {
+    width: calc(100%/3);
+    transition: 1s;
+}
+
+#input1:checked~.perecluch .text {
+    transform: translateX(0);
+    transition: 1s;
+}
+
+#input2:checked~.perecluch .text {
+    transform: translateX(-100%);
+    transition: 1s;
+}
+
+#input3:checked~.perecluch .text {
+    transform: translateX(-200%);
+    transition: 1s;
+}
+
+#input1:checked~#label1,
+#input2:checked~#label2,
+#input3:checked~#label3 {
+    text-decoration: underline;
+    color: black;
+}
+
+.green .container .buy .infocost input {
+    display: none;
+}
+
+.green .container .buy .infocost label {
+    font-family: 'Manrope';
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(192, 192, 192);
+}
+
+.pluses {
+    margin-top: 120px;
+    background-color: black;
+    height: 266px;
+}
+
+.pluses .container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+
+
+}
+
+.pluses .container h2 {
+    color: #fafafa;
+    font-size: 16px;
+    font-family: 'Netural';
+    font-weight: 500;
+}
+
+.pluses .container h3 {
+    color: #fafafa;
+    font-size: 16px;
+    font-family: 'Manrope';
+    font-weight: 500;
+}
+
+.pluses .container .dostavka .fa-plane {
+    color: #fafafa;
+    width: 36px;
+    height: 34px;
+    margin-bottom: 30px;
+}
+
+.pluses .container .support .fa-user {
+    color: #fafafa;
+    width: 34px;
+    height: 34px;
+    margin-bottom: 30px;
+}
+
+.pluses .container .safety .fa-lock {
+    color: #fafafa;
+    width: 30px;
+    height: 34px;
+    margin-bottom: 30px;
+}
+
+.pluses .container .discount .fa-percent {
+    color: #fafafa;
+    width: 34px;
+    height: 34px;
+    margin-bottom: 30px;
+}
+
+.about {
+    margin-top: 160px;
+    margin-bottom: 160px;
+}
+
+.about .container {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.about .container .twowoman {
+    background: url(../img/12.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 400px;
+    height: 600px;
+}
+
+.about .container .texttwwoman h2 {
+    font-size: 70px;
+    font-family: 'Netural';
+    font-weight: 500;
+}
+
+.about .container .texttwwoman h3 {
+    font-family: 'Manrope';
+
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.sub {
+    background-color: black;
+    padding-bottom: 100px;
+
+}
+
+.sub .container {
+    display: flex;
+    flex-direction: column;
+}
+
+.sub .container h2 {
+    font-family: 'Netural';
+    font-weight: 500;
+    font-size: 70px;
+    color: #fafafa;
+    margin-bottom: 0;
+    margin-top: 160px;
+}
+
+.sub .container .ras {
+    text-align: end;
+    margin-top: 0;
+}
+
+.sub .container .foto-input {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sub .container .foto-input .text-woman h3 {
+    font-family: 'Manrope';
+    font-size: 22px;
+    font-weight: 500;
+    color: #fafafa;
+    margin-bottom: 40px;
+}
+
+.sub .container .foto-input .text-woman .woman-orange {
+    background: url(../img/13.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 550px;
+    height: 365px;
+}
+
+.sub .container .foto-input .input h3 {
+    font-family: 'Manrope';
+    font-size: 14px;
+    font-weight: 500;
+    color: #fafafa;
+    margin-bottom: 10px;
+}
+
+.sub .container .foto-input .input {
+    margin-top: 10px;
+}
+
+.sub .container .foto-input .input .abs {
+    width: 470px;
+    height: 50px;
+    background: none;
+    border: 1px solid rgb(85, 85, 85);
+}
+
+
+.sub .container .foto-input .input .abs[type=text] {
+    padding-left: 20px;
+}
+
+.sub .container .foto-input .input .abs[type=tel] {
+    padding-left: 20px;
+}
+
+.sub .container .foto-input .input .abs[type=email] {
+    padding-left: 20px;
+}
+
+.sub .container .foto-input .vibor {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.sub .container .foto-input .vibor label {
+    font-family: 'Manrope';
+    font-size: 14px;
+    font-weight: 500;
+    color: #fafafa;
+    margin-left: 5px;
+
+
+}
+
+.sub .container .foto-input .vibor input {
+    height: 20px;
+    width: 20px;
+    background-color: black;
+}
+
+.sub .container .foto-input .vibor .frst {
+    display: flex;
+    align-items: center;
+}
+
+.sub .container .foto-input .vibor .frst input {
+    margin-left: 0;
+}
+
+.sub .container .foto-input .vibor .scnd {
+    display: flex;
+    align-items: center;
+}
+
+.sub .container .foto-input .vibor .thd {
+    display: flex;
+    align-items: center;
+}
+
+.sub .container .foto-input .obrabotka {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.sub .container .foto-input .obrabotka label {
+    font-family: 'Manrope';
+    font-size: 14px;
+    font-weight: 500;
+    color: #fafafa;
+    margin-left: 5px;
+}
+
+.sub .container .foto-input .obrabotka input {
+    height: 20px;
+    width: 20px;
+    margin-left: 0;
+
+}
+
+.sub .container .foto-input .input .vib-ras {
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.sub .container .foto-input .input .send {
+    width: 470px;
+    height: 64px;
+    background-color: #fafafa;
+    color: black;
+    font-family: 'Netural';
+    font-weight: 500;
+    font-size: 14px;
+    transition: .5s;
+}
+
+.sub .container .foto-input .input .send:hover {
+    background-color: black;
+    color: #fafafa;
+    border: 1px solid #fafafa;
+    transition: .3s;
+}
+
+.line {
+    background-color: #fff;
+    width: 100%;
+    height: 2px;
+}
+
+.under {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    align-items: center;
+}
+
+.under p {
+    color: #fafafa;
+}
+
+@media (max-width: 1200px) {
+    .container {
+        width: 992px;
+    }
+
+    .monochrome .text .text-inside {
+        font-size: 20px;
+    }
+
+    .sub .container .foto-input {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .sub .container h2 {
+        font-size: 54px;
+        margin-left: 100px;
+    }
+
+    .sub .container .ras {
+        text-align: center;
+        margin-left: 80px;
+    }
+
+    .contacts .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .about .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .about .container .texttwwoman h2 {
+        font-size: 40px;
+    }
+
+    .about .container .texttwwoman h3 {
+        font-size: 18px;
+    }
+
+    .advantages .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .green .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .green .container .buy {
+        margin-top: 20px;
+        margin-left: 0;
+    }
+
+    .green .container .greencostum {
+        height: 600px;
+        width: 470px;
+    }
+
+    .season .container .new-season {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .season .container .ns {
+        font-size: 54px;
+        margin-left: 80px;
+    }
+
+    .season .container .otum-winter {
+        font-size: 54px;
+        margin-right: 80px;
+    }
+
+    .new-collection .bg-image {
+        height: 600px;
+    }
+
+    .new-collection h2 {
+        font-size: 24px;
+        margin-top: 70px;
+    }
+
+    .new-collection h1 {
+        font-size: 50px;
+
+    }
+
+    .new-collection button {
+        width: 250px;
+        height: 70px;
+    }
+
+    .mono-for-all .zagolovok {
+        display: flex;
+        justify-content: center;
+    }
+
+    .mono-for-all .photo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .monochrome {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .monochrome .text {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 5%;
+    }
+
+    .monochrome .zagolovok h1 {
+        font-size: 100px;
+    }
+
+    .monochrome .zagolovok h2 {
+        margin-top: 138px;
+    }
+
+    .monochrome .photo img:nth-child(1) {
+        width: 690px;
+    }
+
+    .monochrome .photo img:nth-child(2) {
+        width: 260px;
+    }
+
+    .top {
+        padding-left: 20px;
+    }
+
+}
+
+@media (max-width:720px) {
+    .container {
+        width: 576px;
+    }
+    .container {
+        width: 98%;
+    }
+
+    .sub .container h2 {
+        font-size: 18px;
+        text-align: center;
+        margin-left: 0;
+
+    }
+
+    .sub .container .ras {
+        margin-left: 0;
+        text-align: center;
+
+    }
+
+    .sub .container .foto-input .text-woman h3 {
+        font-size: 11px;
+
+    }
+
+    .sub .container .foto-input .text-woman .woman-orange {
+        width: 270px;
+
+    }
+
+    .sub .container .foto-input {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sub .container .foto-input .input .abs {
+        width: 260px;
+    }
+
+    .sub .container .foto-input .input .send {
+        width: 80%;
+    }
+
+    
+
+    .about .container .texttwwoman h3 {
+        font-size: 11px;
+    }
+
+    .about .container .twowoman {
+        width: 270px;
+    }
+
+    .pluses .container .dostavka .fa-plane {
+        width: 20px;
+        height: 20px;
+        margin-bottom: 10px;
+    }
+
+    .pluses .container .support .fa-user {
+        width: 20px;
+        height: 20px;
+        margin-bottom: 10px;
+    }
+
+    .pluses .container .safety .fa-lock {
+        width: 20px;
+        height: 20px;
+        margin-bottom: 10px;
+    }
+
+    .pluses .container .discount .fa-percent {
+        width: 20px;
+        height: 20px;
+        margin-bottom: 10px;
+    }
+
+    .pluses .container {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .pluses .container h2 {
+        font-size: 7px;
+
+    }
+
+    .pluses .container h3 {
+        font-size: 8px;
+
+    }
+
+    .green .container .buy {
+        padding-right: 0;
+        width: 280px;
+    }
+
+    .green .container .buy .infocost .perecluch .line .text1 {
+        font-size: 12px;
+    }
+
+    .green .container .buy .infocost .perecluch .line .text2 {
+        font-size: 12px;
+    }
+
+    .green .container .buy .infocost .perecluch .line .text3 {
+        font-size: 12px;
+    }
+
+    .green .container .greencostum {
+        width: 270px;
+        height: 480px;
+    }
+
+    .green .container .buy .size .choise select  {
+        width: 280px;
+    }
+
+    .green .container .buy .sell input {
+        width: 200px;
+        margin-left: 5px;
+    }
+
+    .green .container .buy button {
+        width: 80%;
+        margin-top: 20px;
+    }
+
+    .green .container .buy .katalog {
+        width: 80%;
+    }
+
+    .green .container .star .otziv h2 {
+        font-size: 18px;
+    }
+
+    .green .container .star .ot-winter {
+        font-size: 16px;
+    }
+
+    .green .container .buy .sell h2 {
+        font-size: 18px;
+        margin-right: 0;
+    }
+
+    .green .container .buy .infocost label {
+        font-size: 12px;
+        margin-right: 5px;
+    }
+
+    .green .container .buy .infocost .perecluch .text1 {
+        font-size: 14px;
+    }
+
+    .green .container .buy .infocost {
+        margin-top: 20px;
+    }
+
+    .green .container .buy .infocost .perecluch .text2 {
+        font-size: 14px;
+    }
+
+    .green .container .buy .infocost .perecluch .text3 {
+        font-size: 14px;
+    }
+
+    .season .container .ns {
+        font-size: 18px;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .season .container .otum-winter {
+        font-size: 18px;
+        justify-content: center;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .season .container .new-season .costumfrst .costum {
+        width: 260px;
+        height: 350px;
+        background-position-x: -80px;
+    }
+
+    .season .container .new-season .costumfrst h2 {
+        font-size: 16px;
+    }
+
+    .season .container .new-season .costumscnd-thrd .costum2 {
+        width: 260px;
+    }
+
+    .season .container .new-season .costumscnd-thrd .costum3 {
+        width: 260px;
+    }
+
+    .season .container .new-season .costumscnd-thrd h2 {
+        font-size: 16px;
+    }
+
+    .season .container .new-season .costumftz .costum4 {
+        width: 260px;
+    }
+
+    .season .container .new-season .costumftz h2 {
+        font-size: 16px;
+    }
+
+    .collection .bg {
+        height: 300px;
+    }
+
+    .new-collection .bg-image .text h1 {
+        font-size: 20px;
+    }
+
+    .new-collection .bg-image .text-p h2 {
+        font-size: 12px;
+
+    }
+
+    .new-collection .bg-image .text button {
+        width: 100px;
+        height: 30px;
+        font-size: 7px;
+    }
+
+    .mono-for-all {
+        width: 89%;
+    }
+
+    .mono-for-all .zagolovok h2 {
+        font-size: 30px;
+    }
+
+    .mono-for-all .photo p {
+        display: flex;
+        justify-content: end;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    .monochrome .text .zagolovok h1 {
+        font-size: 34px;
+    }
+
+    .monochrome .text .text-inside h2 {
+        font-size: 24px;
+    }
+
+    .monochrome .photo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .monochrome .photo img:nth-child(1) {
+        width: 90%;
+        margin-bottom: 30px;
+    }
+
+    .monochrome .photo img:nth-child(2) {
+        width: 50%;
+        height: 50%;
+    }
+
+    .header-two .container h2 {
+        font-size: 9px;
+    }
+
+    .header-two .container a {
+        margin-right: 5px ;
+    }
+
+    .top .lang i {
+        width: 15px;
+        height: 15px;
+    }
+
+    .top .lang h3 {
+        font-size: 10px;
+    }
+
+    .top .name h2 {
+        font-size: 12px;
+    }
+
+    .top .icons-top .fa-search {
+        width: 12px;
+        height: 12px;
+    }
+
+    .top .icons-top .fa-user {
+        width: 12px ;
+        height: 12px ;
+    }
+
+    .top .icons-top .fa-shopping-cart {
+        width: 12px ;
+        height: 12px ;
+    }
+
+    .top {
+        padding-left: 5px ;
+        display: flex;
+        align-items: center;
+    }
+
+    .forwho a {
+        font-size: 12px;
+    }
+}
+
+@media (max-width:480px) {
+    .container {
+        width: 98%;
+    }
+
+    .sub .container h2 {
+        font-size: 18px;
+        text-align: center;
+        margin-left: 0;
+
+    }
+
+    .sub .container .ras {
+        margin-left: 0;
+        text-align: center;
+
+    }
+
+    .sub .container .foto-input .text-woman h3 {
+        font-size: 11px;
+
+    }
+
+    .sub .container .foto-input .text-woman .woman-orange {
+        width: 270px;
+
+    }
+
+    .sub .container .foto-input {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sub .container .foto-input .input .abs {
+        width: 260px;
+    }
+
+    .sub .container .foto-input .input .send {
+        width: 80%;
+    }
+
+    
+
+    .about .container .texttwwoman h3 {
+        font-size: 11px;
+    }
+
+    .about .container .twowoman {
+        width: 270px;
+    }
+
+    .pluses .container .dostavka .fa-plane {
+        width: 20px;
+        height: 20px;
+        margin-bottom: 10px;
+    }
+
+    .pluses .container .support .fa-user {
+        width: 20px;
+        height: 20px;
+        margin-bottom: 10px;
+    }
+
+    .pluses .container .safety .fa-lock {
+        width: 20px;
+        height: 20px;
+        margin-bottom: 10px;
+    }
+
+    .pluses .container .discount .fa-percent {
+        width: 20px;
+        height: 20px;
+        margin-bottom: 10px;
+    }
+
+    .pluses .container {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .pluses .container h2 {
+        font-size: 7px;
+
+    }
+
+    .pluses .container h3 {
+        font-size: 8px;
+
+    }
+
+    .green .container .buy {
+        padding-right: 0;
+        width: 280px;
+    }
+
+    .green .container .buy .infocost .perecluch .line .text1 {
+        font-size: 12px;
+    }
+
+    .green .container .buy .infocost .perecluch .line .text2 {
+        font-size: 12px;
+    }
+
+    .green .container .buy .infocost .perecluch .line .text3 {
+        font-size: 12px;
+    }
+
+    .green .container .greencostum {
+        width: 270px;
+        height: 480px;
+    }
+
+    .green .container .buy .size .choise select  {
+        width: 280px;
+    }
+
+    .green .container .buy .sell input {
+        width: 200px;
+        margin-left: 5px;
+    }
+
+    .green .container .buy button {
+        width: 80%;
+        margin-top: 20px;
+    }
+
+    .green .container .buy .katalog {
+        width: 80%;
+    }
+
+    .green .container .star .otziv h2 {
+        font-size: 18px;
+    }
+
+    .green .container .star .ot-winter {
+        font-size: 16px;
+    }
+
+    .green .container .buy .sell h2 {
+        font-size: 18px;
+        margin-right: 0;
+    }
+
+    .green .container .buy .infocost label {
+        font-size: 12px;
+        margin-right: 5px;
+    }
+
+    .green .container .buy .infocost .perecluch .text1 {
+        font-size: 14px;
+    }
+
+    .green .container .buy .infocost {
+        margin-top: 20px;
+    }
+
+    .green .container .buy .infocost .perecluch .text2 {
+        font-size: 14px;
+    }
+
+    .green .container .buy .infocost .perecluch .text3 {
+        font-size: 14px;
+    }
+
+    .season .container .ns {
+        font-size: 18px;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .season .container .otum-winter {
+        font-size: 18px;
+        justify-content: center;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .season .container .new-season .costumfrst .costum {
+        width: 260px;
+        height: 350px;
+        background-position-x: -80px;
+    }
+
+    .season .container .new-season .costumfrst h2 {
+        font-size: 16px;
+    }
+
+    .season .container .new-season .costumscnd-thrd .costum2 {
+        width: 260px;
+    }
+
+    .season .container .new-season .costumscnd-thrd .costum3 {
+        width: 260px;
+    }
+
+    .season .container .new-season .costumscnd-thrd h2 {
+        font-size: 16px;
+    }
+
+    .season .container .new-season .costumftz .costum4 {
+        width: 260px;
+    }
+
+    .season .container .new-season .costumftz h2 {
+        font-size: 16px;
+    }
+
+    .collection .bg {
+        height: 300px;
+    }
+
+    .new-collection .bg-image .text h1 {
+        font-size: 20px;
+    }
+
+    .new-collection .bg-image .text-p h2 {
+        font-size: 12px;
+
+    }
+
+    .new-collection .bg-image .text button {
+        width: 100px;
+        height: 30px;
+        font-size: 7px;
+    }
+
+    .mono-for-all {
+        width: 89%;
+    }
+
+    .mono-for-all .zagolovok h2 {
+        font-size: 30px;
+    }
+
+    .mono-for-all .photo p {
+        display: flex;
+        justify-content: end;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    .monochrome .text .zagolovok h1 {
+        font-size: 34px;
+    }
+
+    .monochrome .text .text-inside h2 {
+        font-size: 24px;
+    }
+
+    .monochrome .photo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .monochrome .photo img:nth-child(1) {
+        width: 90%;
+        margin-bottom: 30px;
+    }
+
+    .monochrome .photo img:nth-child(2) {
+        width: 50%;
+        height: 50%;
+    }
+
+    .header-two .container h2 {
+        font-size: 9px;
+    }
+
+    .header-two .container a {
+        margin-right: 5px ;
+    }
+
+    .top .lang i {
+        width: 15px;
+        height: 15px;
+    }
+
+    .top .lang h3 {
+        font-size: 10px;
+    }
+
+    .top .name h2 {
+        font-size: 12px;
+    }
+
+    .top .icons-top .fa-search {
+        width: 12px;
+        height: 12px;
+    }
+
+    .top .icons-top .fa-user {
+        width: 12px ;
+        height: 12px ;
+    }
+
+    .top .icons-top .fa-shopping-cart {
+        width: 12px ;
+        height: 12px ;
+    }
+
+    .top {
+        padding-left: 5px ;
+        display: flex;
+        align-items: center;
+    }
+
+    .forwho a {
+        font-size: 12px;
+    }
+
+}
+@media (max-width:360px) {
+    .container{
+        width: 98%;
+    }
+    .mono-for-all{
+        width: 98%;
+    }
+    .mono-for-all .photo img {
+        width: 98%;
+        display: flex;
+        align-items: center;
+    }
+    .mono-for-all .photo p{
+        width: 98%;
+    }
+    .mono-for-all .photo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 98%;
+    }
+    .monochrome .text .text-inside h2{
+        font-size: 20px;
+    }
+}
